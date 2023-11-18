@@ -1,0 +1,24 @@
+{
+    "name": "youtube-cli",
+    "version": "1.0.0",
+    "description": "",
+    "exports": "./index.js",
+    "type": "module",
+    "bin": {
+        "song": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.6.2",
+        "chalk": "^5.3.0",
+        "commander": "^11.1.0",
+        "inquirer": "^9.2.12",
+        "ora": "^7.0.1",
+        "ytdl-mp3": "^3.4.1"
+    }
+}
